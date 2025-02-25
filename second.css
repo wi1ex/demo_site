@@ -63,7 +63,7 @@ a {
 li {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 10px 25px;
     gap: 10px;
     box-shadow: 0 0 10px black;
     border: 2px solid #00325e;
