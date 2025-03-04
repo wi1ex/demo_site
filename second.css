@@ -10,49 +10,50 @@ body {
 }
 
 h1 {
-    margin-top: 10px;
+    margin-top: 1vh;
     color: white;
-    font-size: 100px;
+    font-size: 10vh;
 }
 
 p {
-    margin-top: -50px;
+    margin-top: -5vh;
     width: 40%;
-    padding: 20px;
+    padding: 2vh;
     color: white;
-    font-size: 20px;
+    font-size: 2vh;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 1vh black;
     z-index: 10;
 }
 
 .img1 {
     position: absolute;
-    top: 150px; 
+    top: 15vh; 
     right: 0; 
     width: 25%;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 5vh black;
 }
 
 .img2 {
     position: absolute;
-    top: 150px; 
+    top: 15vh; 
     left: 0; 
     width: 25%;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 5vh black;
 }
 
 .img3 {
     position: absolute;
     bottom: 0; 
     width: 40%;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 5vh black;
 }
 
 ul {
     display: flex;
-    gap: 30px;
+    gap: 3vh;
+    padding: 0;
 }
 
 a {
@@ -63,17 +64,17 @@ a {
 li {
     display: flex;
     align-items: center;
-    padding: 10px 25px;
-    gap: 10px;
-    box-shadow: 0 0 10px black;
-    border: 2px solid #00325e;
+    padding: 1vh 2vw;
+    gap: 1vh;
+    box-shadow: 0 0 1vh black;
+    border: 0.2vh solid #00325e;
     background-color: #00325e;
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.25s ease-in-out;
 }
 
 li:hover {
     background-color: #a60000;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 5vh black;
     transform: scale(1.2);
 }
